@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #6200ea;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: auto;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode section,
+.dark-mode p,
+.dark-mode ul {
+    color: #e0e0e0; /* Slightly lighter text for readability */
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #4a00b2; /* Darker shade on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    main {
+        max-width: 100%;
+        padding: 10px;
+    }
+    header {
+        padding: 10px;
+    }
+}
