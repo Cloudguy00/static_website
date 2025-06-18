@@ -3,3 +3,4 @@
 git add .
 git commit -m "Update static website files" || echo "No changes to commit"
 git push origin master || echo "Push failed"
+
