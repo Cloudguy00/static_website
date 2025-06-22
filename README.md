@@ -24,16 +24,3 @@ Static_Website Deployment….involved creating “static_website”, a simple po
 
 - Run: ./deploy-site.sh
 
-
-
-## Screenshots
-
-### Live Site
-![Live Site](./screenshots/live-site.png)
-
-
-### Terminal Output
-![Terminal Output](./screenshots/terminal-output.png)
-
-### GitHub Repo View
-![GitHub Repo](./screenshots/github-repo.png)
