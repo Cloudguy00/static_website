@@ -1,20 +1,39 @@
-Static Website Deployment on GitHub
+# Static Website Deployment on Azure
 
-Project Overview 
-- [ ]  Static_Website Deployment….involved creating “static_website”, a simple portfolio with HTML, CSS, and basic JavaScript in VS Code and deploying it on a local VirtualBox VM with NGINX, automated by a Bash script, with the code stored on GitHub.
+## Project Overview
+This project demonstrates the deployment of a static
+Static_Website Deployment….involved creating “static_website”, a simple portfolio with HTML, CSS. The deployment was automated using a Bash script.
+
+---
+
+## Tech Stack
+
+- GitHub for version control
+- Bash script for automation
+
+---
+
+## Setup Steps
+
+### 1. Create Static Website
+- Built with basic HTML,  CSS and JavaScript using VS Code
+
+### 2. Push to GitHub
+- Code is stored at: [GitHub Repo](https://cloudguy00.github.io/static_website/)
+
+
+- Run: ./deploy-site.sh
 
 
 
-Setup Steps
-1.  Create Static Website
-	•  Built “static_website” in VS Code with:
-		•  index.html: Basic structure with header, content, and footer.
-		•  styles.css: Simple styling for a clean look.
-		•  script.js: Minimal JavaScript for basic interactivity (e.g., a toggle button).
-	•  Ensured uniqueness with personal project content.
-2.  Push to GitHub
-	•  Pushed files (index.html, styles.css, script.js, deploy-site.sh) to GitHub Repo.
+## Screenshots
+
+### Live Site
+![Live Site](./screenshots/live-site.png)
 
 
+### Terminal Output
+![Terminal Output](./screenshots/terminal-output.png)
 
-
+### GitHub Repo View
+![GitHub Repo](./screenshots/github-repo.png)
